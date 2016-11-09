@@ -1,1 +1,45 @@
-# nzyshixin.github.io
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+	*{margin:0;padding:0;}
+	li{list-style:none;}
+	.nav{margin:50px auto;width:303px;}
+	.nav>li{float:left;width:100px;height:40px;background:#ccc;line-height:40px;text-align:center;border:1px solid red;margin-left:-1px;}
+	.nav ul{background:#f90;border:1px solid red;display:none;}
+	.active ul{display:block;}
+</style>
+<script>
+window.onload = function(){
+	var aNav = document.getElementById('nav').children;
+	for(var i=0;i<aNav.length;i++){
+		aNav[i].onmouseover = function(){
+			this.className = 'active';
+		};
+		aNav[i].onmouseout = function(){
+			this.className = '';
+		};
+	}
+};
+</script>
+</head>
+
+<body>
+	<ul id="nav" class="nav">
+    	<li>首页</li>
+        <li>
+        	简介
+            <ul>
+            	<li>鸡蛋面</li>
+                <li>打卤面</li>
+                <li>炸酱面</li>
+                <li>牛肉面</li>
+            </ul>
+        </li>
+        <li>关于我们</li>
+    </ul>
+</body>
+</html>
