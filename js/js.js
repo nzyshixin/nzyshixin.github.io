@@ -3,10 +3,18 @@ $(function(){
 //	setInterval(function(){
 //		bs+=1;
 //		if(bs==1){
-//			$('#logo-bs').css({color:'#868585',border:'2px solid #868585',transition:'2s all'});
+//			$('#tx').css({boxShadow:'none',transition: '1s'});
 //		}else if(bs==2){
-//			$('#logo-bs').css({color:'#fff',border:'2px solid #fff',transition:'2s all'});
+//			$('#tx').css({boxShadow:' 0 0 30px #fff',transition: '1s'});
 //			bs=0;
 //		}
-//	},1500)
+//	},1000);
+	$('#tx').mouseover(function(){
+//		$('#tx').css({transform:'rotateY(360deg)',transition:'1s'})
+		$('#tx').css({boxShadow:' 0 0 30px #fff',transition:'1s'})
+	})
+	$('#tx').mouseout(function(){
+//		$('#tx').css({transform:'rotateY(0deg)',transition:'1s'})
+		$('#tx').css({boxShadow:'none',transition:'1s'})
+	})
 })
