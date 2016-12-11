@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0;}
+/*body,html{width: 100%;background: #000;}*/
+/*.header{width: 100%;height: 50px;background: #000;margin: 0;}
+.logo{float: left;width: 60px;height: 30px;border: 2px solid #fff;font-size: 20px;color: #fff;line-height: 22px;text-align: center;font-weight: bold;margin-top: 10px;margin-left: 20px;}*/
+.top{width: 990px;height: 790px;background: #1e243a;margin: 0 auto;position: relative;}
+.top img{width: 990px;}
+.t{font-size: 23px;color: #dee2ee;position: absolute;top: 170px;left: 397px;}
+.tx{width: 205px;height: 205px;border-radius: 50%;position: absolute;top: 387px;left: 394px;overflow: hidden;}
+.tx img{width: 205px;}
+.top ul{width: 990px;margin-top: 140px;}
+.top ul li{list-style: none;float: left;width: 290px;}
+.top ul li a{font-size: 21px;color: #2afcd5;text-decoration: none;}
+.top ul li p{font-size: 17px;color:#d0d0ce;}
+
+.con{width: 990px;height: 650px;margin: 0 auto;background: #192233;}
+.con ul{width: 470px;margin-left: 145px;float: left;}
+.con ul li{list-style: none;width: 470px;}
+.con ul li a{color: #2cfdd6;text-decoration: none;font-size: 17px;}
+.con ul li p{font-size: 14px;color: #d0d2d1;}
+.con .logo{float: left;width: 55px;margin-top: 97px;}
+.logo a{color: #2bfdd6;}
+.logo img{margin-left: 10px;}
+.con .l{float: left;background: url(../images/logo-1.gif) no-repeat;width: 118px;height: 171px;text-align: center;margin-left: 65px;margin-top: 115px;}
+.con .l p{color: #2bfdd6;font-size: 30px;font-weight: bold;}
+
+.cont{width: 990px;height: 300px;background: #192233;margin: 0 auto;}
+.cont p{float: left;font-size: 17px;color: #b6babd;margin-left: 165px;margin-top: 105px;}
+.cont img{float: left;margin-left: 120px;margin-top: 80px;}
+
+.conte{background: #1e243a;width: 990px;height: 400px;margin: 0 auto;}
+.jn{display: block;width: 242px;height: 92px;background: url(../images/logo-3.gif) no-repeat;color: #2dfed7;font-size: 50px;margin: 0 auto;font-weight: bold;text-align: center;}
+.conte .zw{width: 990px;height: 50px;}
+.conte ul{width: 990px;margin-top: 40px;}
+.conte ul li{list-style: none;float: left;width: 330px;text-align: center;}
+.conte ul li p{color: #2bfdd6;font-size: 25px;font-weight: bold;}
+
+.footer{width: 990px;height: 327px;background: #1e243a;margin: 0 auto;text-align: center;}
+.footer img{width: 196px;margin-top: 50px;margin-bottom: 20px;}
+.footer p{color: #cfd0d2;font-size: 15px;}
